@@ -74,8 +74,8 @@ public class DBQueryEngine implements QueryEngine
 	
     private static final String SELECT_BY_DYNAMIC_QUERY = "alfresco.metadata.query.select_byDynamicQuery";
     private static final String SELECT_BY_DYNAMIC_QUERY_FAST = "alfresco.metadata.query.select_byDynamicQueryFast";
-    private static final String FAST_QUERY_IDENTIFIER = "fa";
-    private static final String SLOW_QUERY_IDENTIFIER = "sl";
+    private static final String FAST_QUERY_IDENTIFIER = "x-fa";
+    private static final String SLOW_QUERY_IDENTIFIER = "x-sl";
     
     private SqlSessionTemplate template;
 
